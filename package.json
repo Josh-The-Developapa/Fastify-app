@@ -1,0 +1,23 @@
+{
+  "name": "fastify-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Joshua Mukisa",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "fastify": "^3.28.0",
+    "fastify-mongodb": "^4.1.1",
+    "fastify-plugin": "^3.0.1",
+    "mongoose": "^6.3.1",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
